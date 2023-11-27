@@ -1,4 +1,5 @@
 function fillMaxSellWood() {
+    console.error("angekommen");
     // Holzmenge auslesen
     var woodElement = document.getElementById('wood');
     var availableWood = woodElement ? parseInt(woodElement.innerText.replace('.', ''), 10) : null;
